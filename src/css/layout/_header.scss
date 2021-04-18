@@ -1,0 +1,38 @@
+
+.main-nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+
+}
+.btn-burger {
+    width: 40px;
+    height: 40px;
+    z-index:1;
+    cursor: pointer;
+    border-radius: 
+    5px;
+    transition:all ease-in-out 0.3s;
+
+}
+
+.btn-burger div {
+    width: 70%;
+    height: 2px;
+    background: #DB1D1D;
+    margin-top: 6px;
+}
+
+.intro{
+    display: flex; 
+    margin-top: 50px;
+}
+
+
+.detail{
+    border-left:3px solid #DB1D1D;
+    margin-right: 5px;
+    height: 60px;
+    align-self: center;
+}

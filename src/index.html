@@ -3,26 +3,127 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <title>Edouard Denoncin - Portfolio 2021</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">  
   <link rel="stylesheet" href="css/styles.min.css">
 </head>
 <body>
-  <h1 class="hello">
-    Maman
-  </h1>
-  <p>
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt adipisci sapiente nisi sequi, magni molestiae consectetur optio nulla ut accusamus provident laboriosam est debitis. Enim deleniti pariatur sunt unde aliquid.
-    Quisquam accusantium alias cumque ducimus vel aspernatur dolor illo nisi, veniam quae nemo magni qui? Itaque ut beatae, aspernatur laborum soluta delectus quis consequuntur veniam nisi cupiditate, debitis libero tenetur?
-    Ex alias laborum sequi. Nostrum consequatur id ipsam quidem optio, magni, quos quaerat odio accusantium deleniti exercitationem. Corrupti rem et autem, doloremque eveniet animi accusantium, quaerat eum illo distinctio itaque.
-    Sit ullam numquam, omnis saepe, vel odit id tempora doloribus dicta recusandae ex nam delectus, itaque deleniti natus placeat eaque consequatur nobis qui! Non magnam blanditiis tenetur sequi, eius repellat.
-    Beatae, numquam non itaque sed veritatis iste doloremque expedita, debitis commodi aut unde? Ex ratione distinctio sunt adipisci illo, qui eius vel quo natus facilis molestiae omnis illum fugiat cum.
-    Dolorum, illum unde! Officia distinctio eligendi quidem mollitia excepturi veritatis odit dolor suscipit, illum commodi similique soluta, rerum consectetur eum est sunt. Libero perspiciatis vero incidunt molestiae ullam cupiditate accusamus!
-    Odio maiores dolorem nesciunt aperiam earum hic pariatur laudantium? Impedit deserunt sunt alias recusandae cupiditate voluptatum neque repellendus, quos incidunt nemo magnam. Accusantium perspiciatis veritatis, beatae corporis obcaecati quasi dolores?
-    Saepe modi alias facilis tempore voluptatem earum explicabo eum, consequuntur ipsam in voluptatum quod necessitatibus laudantium porro totam aspernatur recusandae atque temporibus dolore vero ex consectetur animi reprehenderit! Iure, corporis?
-    Perferendis beatae culpa laboriosam ipsa, velit non exercitationem hic laudantium necessitatibus dolores! Maxime a perspiciatis, laborum nisi neque ab quo id ea delectus tempora recusandae voluptatum accusantium. Iste, ducimus ad.
-    Ab fugit qui sint id praesentium vel eligendi deleniti ea eaque iusto non neque, nulla molestias alias dignissimos at fugiat pariatur tempora sit modi in. Cumque placeat quam tempore obcaecati.
-  </p>
+  <aside>
+  <div class="burger-menu">
+    <a href="" class="close"><i class="fas fa-times"></i>
+    </a>
+    <div class="menu">
+      <a href="index.html">home</a>
+      <a href="#portfolio">portfolio</a>
+      <a href="#about">about</a>
+      <a href="#skills">skills</a>
+      <a href="#contact">contact</a>
+    </div>
+  </div>
+  </aside>
+  <header class="header wrapper">
+    <div class="main-nav">
+      <div class="logo">
+        <a href="index.html">Edouard Denoncin</a>
+      </div>
+      <div class="btn-burger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <div class="intro">
+      <div class="detail"></div>
+      <div class="intro-txt">
+        <h1>hello world ! I’m Edouard,<br>
+          I’m graphist and front-end developper.</h1>
+      </div>
+    </div>
+  </header>
+  <section class="portfolio wrapper">
+      <div class="filter">
+        <ul class="filter__list">
+          <li><a href="#" data-filter="*">all</a></li>
+          <span>|</span>
+          <li><a href="#" data-filter=".web">web</a></li>
+          <span>|</span>
+          <li><a href="#" data-filter=".print">print</a></li>
+          <span>|</span>
+          <li><a href="#" data-filter=".video">video</a></li>
+        </ul>
+      </div>
+      <div class="container">
+        <div class="big-work">
+          <div class="hover">
+            <div class="descr">
+              <h3>nature <br> magazine</h3>
+              <a href=""><i class="far fa-eye"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-work">
+          <div class="small-hover">
+            <div class="descr">
+              <h3>Branding</h3>
+              <a href=""><i class="far fa-eye"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="big-work">
+          <div class="hover">
+            <div class="descr">
+              <h3>nature <br> magazine</h3>
+              <a href=""><i class="far fa-eye"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="about wrapper">
+      <div class="sub-title">
+        <h2>about</h2>
+        <div class="red-line"></div>
+      </div>
+      <div class="container">
+        <div class="about-img">
+          <div class="hover">
+            <div class="descr">
+              <i class="fas fa-graduation-cap"></i>
+              <ul>
+                <li>Qualification en infographie</li>
+                <li>Bachelier en technique de l’infographie</li>
+                <li>Formation Front-end Developper</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="about-descr">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas egestas pellentesque sem. Fusce eu mattis nulla. Mauris vestibulum sollicitudin dui, vel venenatis libero ultricies eget. In hac habitasse platea dictumst.</p>
+        <p>
+          Nam posuere eu dolor at condimentum. Sed gravida nulla in eros aliquet varius. Sed eu lacus tincidunt, dignissim nisi eu, dictum velit.</p>
+        <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut blandit dolor arcu, id feugiat nisi ultrices vestibulum. Maecenas in volutpat mi, elementum convallis enim. Praesent risus dui, interdum ultricies interdum vel, aliquam at leo.
+          </p>
+        </div>
+      </div>
+  </section>
+
+  <section class="skills wrapper">
+    <div class="sub-title">
+      <h2>skills</h2>
+      <div class="red-line"></div>
+    </div>
+  </section>
+  <section class="contact wrapper">
+    <div class="sub-title">
+      <h2>contact</h2>
+      <div class="red-line"></div>
+    </div>
+  </section>
+  <footer class="footer">
+
+  </footer>
+  <script src="https://kit.fontawesome.com/286f454106.js" crossorigin="anonymous"></script>
    <script src="js/myJs.min.js"></script>
 </body>
 </html>

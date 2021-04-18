@@ -1,2 +1,38 @@
-body{background-color: yellow;
+body{
+    font-family: 'Ubuntu Mono', monospace;
+    color: #333333;
+}
+
+.wrapper {
+    width: 55%;
+    margin:0 auto;
+  }
+  
+a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 18px;
+    transition:all ease-in-out 0.3s;
+
+        &:hover{
+            color: #DB1D1D;
+        }
+
+}
+h1,h2,h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.sub-title{
+    position: relative;
+    h2{
+        margin-bottom: 5px;
+    }
+    width: 50px;
+    .red-line{
+        position: relative;
+        border-bottom: 3px solid #DB1D1D;
+        left: 25%;
+    }
 }
